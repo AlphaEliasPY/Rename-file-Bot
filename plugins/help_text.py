@@ -48,7 +48,7 @@ def send_start(bot, update):
             [
             
                 [
-                  InlineKeyboardButton(text="🎓 AndroidCave", url="https://t.me/AndroidCave")
+                  InlineKeyboardButton(text="AndroidCave🏴‍☠️", url="https://t.me/AndroidCave")
                 ]
             ]
         ),
