@@ -12,12 +12,12 @@ Cambie el nombre de los archivos de Telegram con soporte permanente de miniatura
 
 
 ### ¡Puede tocar el botón Implementar en Heroku a continuación para implementar directamente en Heroku!
-[![Implementar](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cursosproandroid/RenameBotProAndroid)
+[![Implementar](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AlphaEliasPY/Rename-file-Bot)
 
 ### Implementa el bot en tu vps
 ```sh
-git clone https://github.com/cursosproandroid/RenameBotProAndroid
-cd RenameBotProAndroid
+git clone https://github.com/AlphaEliasPY/Rename-file-Bot
+cd Rename-file-Bot
 virtualenv -p python3 VENV
 . ./VENV/bin/activate
 pip install -r requirements.txt
@@ -26,7 +26,7 @@ python3 -m tobrot
 ```
 
 
-#### Para consultas y soporte, contacte a [Skueletor](https://telegram.dog/DKzippO)
+#### Gracias por su codigo a [Skueletor](https://telegram.dog/DKzippO)
 
 ## Créditos:
 
