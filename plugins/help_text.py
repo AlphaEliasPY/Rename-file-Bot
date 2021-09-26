@@ -51,7 +51,6 @@ def send_start(bot, update):
                 ],
                
                 ]
-            ]
         ),
         parse_mode="html",
         disable_web_page_preview=True,
