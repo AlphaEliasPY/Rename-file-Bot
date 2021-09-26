@@ -31,7 +31,7 @@ def help_user(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.HELP_USER,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="👤 Soporte", url="https://t.me/DKzippO")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="👤 Soporte", url="https://t.me/AndroidCave")]]),
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
@@ -46,12 +46,9 @@ def send_start(bot, update):
         text=script.START_TEXT.format(update.from_user.first_name),
         reply_markup=InlineKeyboardMarkup(
             [
+            
                 [
-                  InlineKeyboardButton(text="👤 Soporte", url="https://t.me/DKzippO"), 
-                  InlineKeyboardButton(text="📢 Canales", url="https://t.me/proandroid2")
-                ],
-                [
-                  InlineKeyboardButton(text="🎓 Cursos Pro Android", url="https://t.me/joinchat/VDY6seEnkeKdZNRM")
+                  InlineKeyboardButton(text="🎓 AndroidCave", url="https://t.me/AndroidCave")
                 ]
             ]
         ),
