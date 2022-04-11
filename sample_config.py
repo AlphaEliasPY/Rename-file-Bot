@@ -4,11 +4,11 @@ import os
 class Config(object):
 
     #Obtén el token desde @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "2032341715:AAHzgLfafn9hFw2z-IPyu-SFpHKygiOpyXE")
 
     #Las cosas de la API de Telegram
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = int(os.environ.get("APP_ID", 5925378))
+    API_HASH = os.environ.get("API_HASH", "c7dbb336e122294eb91d13af04cdcaa0")
     #Obtén estos valores desde my.telegram.org
 
     #Este es el apartado para almacenar usuarios que están autorizados a usar el bot como administrador
